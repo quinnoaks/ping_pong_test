@@ -1,18 +1,16 @@
-$(document).ready(function() {
+$(function() {
 
-  $(".button").submit(function(event) {
     var number = prompt("What is your number?");
 
-    for (var index = 0; index < number; index += 1) {
-      if (index % 3 === 0) {
-        $(".output ul").text("ping");
+    for (var index = 1; index < number; index += 1) {
+      if (index % 3 === 0 && index % 5 === 0) {
+        $("ul").append("<li>ping-pong</li>");
       } else if (index % 5 === 0) {
-        $(".output ul").text("pong");
+        $("ul").append("<li>pong</li>");
+      } else if (index % 3 === 0) {
+        $("ul").append("<li>ping</li>");
       } else {
-        $(".output ul").text(index);
+        $("ul").append("<li>" + index + "</li>");
       }
     }
-
-    event.preventDefault();
-  });
 });
