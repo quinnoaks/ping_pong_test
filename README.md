@@ -10,7 +10,7 @@ The Ping Pong Test uses a loop to show all of the numbers from 1 to your input. 
 
 ## Setup
 
-* Use the following url - [Click here](http://www.quinnoaks.github.io/ping_pong_test)
+* Use the following url - [Click here](http://quinnoaks.github.io/ping_pong_test)
 * Enter your number - must be an integar to work.
 * Click "Okay."
 * Read the results.
