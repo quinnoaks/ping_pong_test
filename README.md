@@ -6,27 +6,22 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
+The Ping Pong Test uses a loop to show all of the numbers from 1 to your input. If the number is divisible by 3, then instead of the number, "ping" is written. If the number is divisible by 5, then instead of the number, "pong" is written. If the number is divisible by both 3 and 5, then "ping-pong" is written.
 
 ## Setup
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
+* Use the following url -
+* Enter your number - must be an integar to work.
+* Click "Okay."
+* Read the results.
 
 ## Technologies Used
 
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+HTML, CSS, Javascript, Bootstrap, JQuery
 
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
-
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 **Quinn Oaks**
 
 This software is licensed under the MIT license.
 
